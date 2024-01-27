@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title>DOTA 2</title>
+  </head>
+  <body class="w3-black">
+    <div
+      class="w3-container w3-black"
+      style="cursor: pointer"
+      onclick="openTAB('Beranda')"
+    >
+      <center>
+        <img
+          class
+          src="https://wallpapers.com/images/featured-full/dota-2-4k-myksmm4jti7949c1.jpg"
+          style="
+            width: 80vw;
+            height: 40vh;
+            min-height: 80px;
+            background-color: black;
+          "
+        />
+      </center>
+    </div>
+    <div class="w3-bar w3-black w3-card-4">
+      <div class="w3-dropdown-hover">
+        <button class="w3-button w3-black">=</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <button
+            class="w3-bar-item w3-button w3-black"
+            onclick="openTAB('Beranda')"
+          >
+            Home
+          </button>
+          <button
+            class="w3-bar-item w3-button w3-black"
+            onclick="openTAB('Profile')"
+          >
+            Profile
+          </button>
+        </div>
+      </div>
+      <button class="w3-bar-item w3-button" onclick="openTAB('Desain Pixel')">
+        HEROES
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openTAB('Item')">
+        Item
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openTAB('TI')">
+        Turnamen
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openTAB('Role')">
+        Role
+      </button>
+    </div>
+
+    <div
+      id="Desain Pixel"
+      class="w3-container w3-table w3-dark-grey TAB w3-animate-bottom"
+      style="display: none"
+    >
+      <center>
+        <h1><strong> HEROES DOTA 2 </strong></h1>
+        <img
+          src="https://cdn.vcgamers.com/news/wp-content/uploads/2022/01/c71cb340-fc06-496a-9cbd-d0a7724b3f54-1536x795.jpg.webp"
+          alt=""
+          style="
+            width: auto;
+            height: 40vh;
+            border: 2px 2px;
+            border-color: brown;
+          "
+        />
+        <p>
+          Hero Dota 2 dibagi dalam tiga ketegori yaitu: intelligence, strength,
+          dan agility. Setiap hero memiliki kemampuan luar biasa ditambah
+          ultimate menakjubkan yang dapat diaktifkan untuk menghancurkan lawan.
+        </p>
+      </center>
+
+      <center>
+        <table id="strengthHeroes" style="width: 33%; display: inline-table">
+          <tr>
+            <td><strong>STRENGTH HEROES</strong></td>
+          </tr>
+          <tr>
+            <td>Abaddon</td>
+          </tr>
+          <tr>
+            <td>Alchemist</td>
+          </tr>
+          <tr>
+            <td>Axe</td>
+          </tr>
+          <tr>
+            <td>Beastmaster</td>
+          </tr>
+          <tr>
+            <td>Brewmaster</td>
+          </tr>
+          <tr>
+            <td>Bristleback</td>
+          </tr>
+          <tr>
+            <td>Centaur Warrunner</td>
+          </tr>
+          <tr>
+            <td>Chaos Knight</td>
+          </tr>
+          <tr>
+            <td>Clockwerk</td>
+          </tr>
+          <tr>
+            <td>Dawnbreaker</td>
+          </tr>
+          <tr>
+            <td>Doom</td>
+          </tr>
+          <tr>
+            <td>Dragon Knight</td>
+          </tr>
+          <tr>
+            <td>Earth Spirit</td>
+          </tr>
+          <tr>
+            <td>Earthshaker</td>
+          </tr>
+          <tr>
+            <td>Elder Titan</td>
+          </tr>
+          <tr>
+            <td>Huskar</td>
+          </tr>
+          <tr>
+            <td>Io</td>
+          </tr>
+          <tr>
+            <td>Kunkka</td>
+          </tr>
+          <tr>
+            <td>Legion Commander</td>
+          </tr>
+          <tr>
+            <td>Lifestealer</td>
+          </tr>
+          <tr>
+            <td>Lycan</td>
+          </tr>
+          <tr>
+            <td>Magnus</td>
+          </tr>
+          <tr>
+            <td>Marci</td>
+          </tr>
+          <tr>
+            <td>Mars</td>
+          </tr>
+          <tr>
+            <td>Night Stalker</td>
+          </tr>
+          <tr>
+            <td>Omniknight</td>
+          </tr>
+          <tr>
+            <td>Phoenix</td>
+          </tr>
+          <tr>
+            <td>Pudge</td>
+          </tr>
+          <tr>
+            <td>Sand King</td>
+          </tr>
+          <tr>
+            <td>Slardar</td>
+          </tr>
+          <tr>
+            <td>Snapfire</td>
+          </tr>
+          <tr>
+            <td>Spirit Breaker</td>
+          </tr>
+          <tr>
+            <td>Sven</td>
+          </tr>
+          <tr>
+            <td>Tidehunter</td>
+          </tr>
+          <tr>
+            <td>Timbersaw</td>
+          </tr>
+          <tr>
+            <td>Tiny</td>
+          </tr>
+          <tr>
+            <td>Treant Protector</td>
+          </tr>
+          <tr>
+            <td>Tusk</td>
+          </tr>
+          <tr>
+            <td>Underlord</td>
+          </tr>
+          <tr>
+            <td>Undying</td>
+          </tr>
+          <tr>
+            <td>Wraith King</td>
+          </tr>
+        </table>
+        <table id="strengthHeroes2" style="width: 33%; display: inline-table">
+          <tr>
+            <td><strong>INTELLIGENCE HEROES</strong></td>
+          </tr>
+          <tr>
+            <td>Ancient Apparition</td>
+          </tr>
+          <tr>
+            <td>Bane</td>
+          </tr>
+          <tr>
+            <td>Batrider</td>
+          </tr>
+          <tr>
+            <td>Chen</td>
+          </tr>
+          <tr>
+            <td>Crystal Maiden</td>
+          </tr>
+          <tr>
+            <td>Dark Seer</td>
+          </tr>
+          <tr>
+            <td>Dark Willow</td>
+          </tr>
+          <tr>
+            <td>Dazzle</td>
+          </tr>
+          <tr>
+            <td>Death Prophet</td>
+          </tr>
+          <tr>
+            <td>Disruptor</td>
+          </tr>
+          <tr>
+            <td>Enchantress</td>
+          </tr>
+          <tr>
+            <td>Enigma</td>
+          </tr>
+          <tr>
+            <td>Grimstroke</td>
+          </tr>
+          <tr>
+            <td>Invoker</td>
+          </tr>
+          <tr>
+            <td>Jakiro</td>
+          </tr>
+          <tr>
+            <td>Keeper of the Light</td>
+          </tr>
+          <tr>
+            <td>Leshrac</td>
+          </tr>
+          <tr>
+            <td>Lich</td>
+          </tr>
+          <tr>
+            <td>Lina</td>
+          </tr>
+          <tr>
+            <td>Lion</td>
+          </tr>
+          <tr>
+            <td>Nature’s Prophet</td>
+          </tr>
+          <tr>
+            <td>Necrophos</td>
+          </tr>
+          <tr>
+            <td>Ogre Magi</td>
+          </tr>
+          <tr>
+            <td>Oracle</td>
+          </tr>
+          <tr>
+            <td>Outworld Destroyer</td>
+          </tr>
+          <tr>
+            <td>Puck</td>
+          </tr>
+          <tr>
+            <td>Pugna</td>
+          </tr>
+          <tr>
+            <td>Queen of Pain</td>
+          </tr>
+          <tr>
+            <td>Rubick</td>
+          </tr>
+          <tr>
+            <td>Shadow Demon</td>
+          </tr>
+          <tr>
+            <td>Shadow Shaman</td>
+          </tr>
+          <tr>
+            <td>Silencer</td>
+          </tr>
+          <tr>
+            <td>Skywrath Mage</td>
+          </tr>
+          <tr>
+            <td>Storm Spirit</td>
+          </tr>
+          <tr>
+            <td>Techies</td>
+          </tr>
+          <tr>
+            <td>Tinker</td>
+          </tr>
+          <tr>
+            <td>Visage</td>
+          </tr>
+          <tr>
+            <td>Void Spirit</td>
+          </tr>
+          <tr>
+            <td>Warlock</td>
+          </tr>
+          <tr>
+            <td>Windranger</td>
+          </tr>
+          <tr>
+            <td>Winter Wyvern</td>
+          </tr>
+          <tr>
+            <td>Witch Doctor</td>
+          </tr>
+          <tr>
+            <td>Zues</td>
+          </tr>
+        </table>
+        <table id="strengthHeroes2" style="width: 33%; display: inline-table">
+          <tr>
+            <td><strong>STRENGTH HEROES</strong></td>
+          </tr>
+          <tr>
+            <td>Abaddon</td>
+          </tr>
+          <tr>
+            <td>Alchemist</td>
+          </tr>
+          <tr>
+            <td>Axe</td>
+          </tr>
+          <tr>
+            <td>Beastmaster</td>
+          </tr>
+          <tr>
+            <td>Brewmaster</td>
+          </tr>
+          <tr>
+            <td>Bristleback</td>
+          </tr>
+          <tr>
+            <td>Centaur Warrunner</td>
+          </tr>
+          <tr>
+            <td>Chaos Knight</td>
+          </tr>
+          <tr>
+            <td>Clockwerk</td>
+          </tr>
+          <tr>
+            <td>Dawnbreaker</td>
+          </tr>
+          <tr>
+            <td>Doom</td>
+          </tr>
+          <tr>
+            <td>Dragon Knight</td>
+          </tr>
+          <tr>
+            <td>Earth Spirit</td>
+          </tr>
+          <tr>
+            <td>Earthshaker</td>
+          </tr>
+          <tr>
+            <td>Elder Titan</td>
+          </tr>
+          <tr>
+            <td>Huskar</td>
+          </tr>
+          <tr>
+            <td>Io</td>
+          </tr>
+          <tr>
+            <td>Kunkka</td>
+          </tr>
+          <tr>
+            <td>Legion Commander</td>
+          </tr>
+          <tr>
+            <td>Lifestealer</td>
+          </tr>
+          <tr>
+            <td>Lycan</td>
+          </tr>
+          <tr>
+            <td>Magnus</td>
+          </tr>
+          <tr>
+            <td>Marci</td>
+          </tr>
+          <tr>
+            <td>Mars</td>
+          </tr>
+          <tr>
+            <td>Night Stalker</td>
+          </tr>
+          <tr>
+            <td>Omniknight</td>
+          </tr>
+          <tr>
+            <td>Phoenix</td>
+          </tr>
+          <tr>
+            <td>Pudge</td>
+          </tr>
+          <tr>
+            <td>Sand King</td>
+          </tr>
+          <tr>
+            <td>Slardar</td>
+          </tr>
+          <tr>
+            <td>Snapfire</td>
+          </tr>
+          <tr>
+            <td>Spirit Breaker</td>
+          </tr>
+          <tr>
+            <td>Sven</td>
+          </tr>
+          <tr>
+            <td>Tidehunter</td>
+          </tr>
+          <tr>
+            <td>Timbersaw</td>
+          </tr>
+          <tr>
+            <td>Tiny</td>
+          </tr>
+          <tr>
+            <td>Treant Protector</td>
+          </tr>
+          <tr>
+            <td>Tusk</td>
+          </tr>
+          <tr>
+            <td>Underlord</td>
+          </tr>
+          <tr>
+            <td>Undying</td>
+          </tr>
+          <tr>
+            <td>Wraith King</td>
+          </tr>
+        </table>
+      </center>
+    </div>
+
+    <div
+      id="Profile"
+      class="w3-container w3-center w3-animate-opacity TAB"
+      style="display: none"
+    >
+      <center>
+        <p>NAMA: MUHAMMAD HAZIM ROBBANI</p>
+        <p>NIM: 10123280</p>
+        <p>KELAS: IF-7</p>
+      </center>
+    </div>
+
+    <div
+      id="Item"
+      class="w3-container w3-animate-left TAB"
+      style="display: none"
+    >
+      <h2 class="w3-center w3-margin-top">Daftar Item Dota 2</h2>
+
+      <table class="w3-table w3-bordered w3-hoverable">
+        <thead class="w3-light-grey">
+          <tr>
+            <th>Nama Item</th>
+            <th>Gambar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Power Treads</td>
+            <td>
+              <img
+                class="w3-border"
+                width="300px"
+                height="auto"
+                src="https://dota2tipsandtricksblog.files.wordpress.com/2017/03/power-treads.png"
+                alt="Power Treads"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Blink Dagger</td>
+            <td>
+              <img
+                class="w3-border"
+                width="300px"
+                height="auto"
+                src="https://pbs.twimg.com/profile_images/1405525161500024849/EhzmNk5X_400x400.png"
+                alt="Blink Dagger"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Black King Bar</td>
+            <td>
+              <img
+                class="w3-border"
+                width="300px"
+                height="auto"
+                src="https://cdn.oneesports.gg/cdn-data/2023/04/Dota2_BlackKingBar.jpg"
+                alt="Black King Bar"
+              />
+            </td>
+          </tr>
+          <!-- Tambahkan item lainnya -->
+          <tr>
+            <td>Force Staff</td>
+            <td>
+              <img
+                class="w3-border"
+                width="300px"
+                height="auto"
+                src="data:image/jpeg;base64,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"
+                alt="Force Staff"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Aghanim's Scepter</td>
+            <td>
+              <img
+                class="w3-border"
+                width="300px"
+                height="auto"
+                src="data:image/jpeg;base64,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"
+                alt="Aghanim's Scepter"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Observer Ward</td>
+            <td>
+              <img
+                class="w3-border"
+                width="300px"
+                height="auto"
+                src="https://cdn.akamai.steamstatic.com/apps/dota2/images/workshop/guidelines/wards/megagreevil_ward.jpg"
+                alt="Observer Ward"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Smoke of Deceit</td>
+            <td>
+              <img
+                class="w3-border"
+                width="300px"
+                height="auto"
+                src="https://preview.redd.it/smoke-of-deceit-v0-bcbdepcs8wu81.png?auto=webp&s=98997fc0a82c9cf4b871a286600be914c123ed3e"
+                alt="Smoke of Deceit"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Mekansm</td>
+            <td>
+              <img
+                class="w3-border"
+                width="300px"
+                height="auto"
+                src="https://steamuserimages-a.akamaihd.net/ugc/576744651249186312/CE6B7BCFC493952EE81950878689EFB2320212AB/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+                alt="Mekansm"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Desolator</td>
+            <td>
+              <img
+                class="w3-border"
+                width="300px"
+                height="auto"
+                src="https://steamuserimages-a.akamaihd.net/ugc/666828702331806184/2583FC35DA58EC502B270D8968D4A123DE886F1B/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+                alt="Desolator"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Boots of Travel</td>
+            <td>
+              <img
+                class="w3-border"
+                width="300px"
+                height="auto"
+                src="data:image/jpeg;base64,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"
+                alt="Boots of Travel"
+              />
+            </td>
+          </tr>
+          <!-- Tambahkan item lainnya sesuai kebutuhan -->
+        </tbody>
+      </table>
+    </div>
+
+    <div
+      id="Beranda"
+      class="w3-container w3-center w3-animate-opacity w3-dark-grey TAB"
+      style="display: block"
+    >
+      <h1><strong>Dota 2</strong></h1>
+      <p>
+        Dota 2 adalah sebuah permainan arena pertarungan daring multipemain, dan
+        merupakan sekuel dari Defense of the Ancients mod pada Warcraft 3: Reign
+        of Chaos dan Warcraft 3: The Frozen Throne. DotA 2 dikembangkan oleh
+        Valve Corporation, terbit juli 2013 dota 2 dapat dimainkan secara gratis
+        pada sistem operasi Microsoft Windows, OS X and Linux. Dota 2 dapat
+        dimainkan secara eksklusif melalui distributor resmi valve, Steam.
+        <br />
+        <img
+          src="https://rakyatbenteng.disway.id/upload/f86eee312cef489d58d07960662c120d.jpg"
+          alt=""
+          width="400"
+          style="border-radius: 10%"
+        />
+        <br />
+        Dota 2 pertama kali memperkenalkan diri ke hadapan publik terjadi saat
+        Gamescom 2011, seiring digelarnya International Championship (TI1).
+        Turnamen ini kemudian menjadi event esports nomor satu Valve, dan Dota 2
+        secara resmi dirilis pada 9 Juli 2013 setelah melewati dua tahun beta
+        testing.
+      </p>
+    </div>
+
+    <div id="TI" class="w3-container w3-animate-top TAB" style="display: none">
+      <center>
+        <h1>Daftar Pemenang Tournament THE INTERNATIONAL (TI)</h1>
+      </center>
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://oneesports.blob.core.windows.net/cdn-data/2021/04/Dota2_TheInternational2011NaVi-min-1024x576.jpg"
+          alt="Natus Vincere Logo"
+        />
+        <h2 style="color: #333">TI 1 (2011): Natus Vincere</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.gg/cdn-data/2021/10/Dota2_InvictusGaming_TI2_Champions-1024x576.jpg"
+          alt="Invictus Gaming Logo"
+        />
+        <h2 style="color: #333">TI 2 (2012): Invictus Gaming</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.gg/cdn-data/2021/10/Dota2_Alliance_TI3_Champions-1024x576.jpg"
+          alt="Alliance Logo"
+        />
+        <h2 style="color: #333">TI 3 (2013): Alliance</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.gg/cdn-data/2021/10/Dota2_Newbee_TI4_Champions-1024x576.jpg"
+          alt="Newbee Logo"
+        />
+        <h2 style="color: #333">TI 4 (2014): Newbee</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.gg/cdn-data/2021/10/Dota2_EvilGeniuses_TI5_Champions-1024x576.jpg"
+          alt="Evil Geniuses Logo"
+        />
+        <h2 style="color: #333">TI 5 (2015): Evil Geniuses</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.gg/cdn-data/2021/10/Dota2_WingsGaming_TI6_Champions-1024x576.jpg"
+          alt="Wings Gaming Logo"
+        />
+        <h2 style="color: #333">TI 6 (2016): Wings Gaming</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.gg/cdn-data/2021/10/Dota2_TeamLiquid_TI7_Champions-1024x576.jpg"
+          alt="Team Liquid Logo"
+        />
+        <h2 style="color: #333">TI 7 (2017): Team Liquid</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.gg/cdn-data/2021/10/Dota2_OG_TI8_Champions-1024x576.jpg"
+          alt="OG Logo"
+        />
+        <h2 style="color: #333">TI 8 (2018): OG</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.gg/cdn-data/2021/10/Dota2_OG_TI9_Champions-1024x576.jpg"
+          alt="OG Logo"
+        />
+        <h2 style="color: #333">TI 9 (2019): OG</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.id/cdn-data/sites/2/2021/10/Dota2_TeamSpirit_Wins_TheInternational10TI10-1536x864.jpg"
+          alt="Team Spirit Logo"
+        />
+        <h2 style="color: #333">TI 10 (2021): Team Spirit</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.id/cdn-data/sites/2/2021/10/Tundra_Esports_win_The_International_2022.jpg"
+          alt="Tundra Esports Logo"
+        />
+        <h2 style="color: #333">TI 11 (2022): Tundra Esports</h2>
+      </div>
+
+      <div
+        style="
+          margin: 50px;
+          padding: 20px;
+          background-color: grey;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+        "
+      >
+        <img
+          style="width: 700px; height: auto; margin-bottom: 20px"
+          src="https://cdn.oneesports.id/cdn-data/sites/2/2023/10/TS_TI12.JPG-1536x864.jpg"
+          alt="Team Spirit Logo"
+        />
+        <h2 style="color: #333">TI 12 (2023): Team Spirit</h2>
+      </div>
+    </div>
+
+    <div
+      id="Role"
+      class="w3-container w3-center w3-animate-right TAB"
+      style="display: none"
+    >
+      <header style="background-color: #333; color: #fff; padding: 10px">
+        <h1>Dota 2 Roles</h1>
+      </header>
+
+      <section style="padding: 20px">
+        <div
+          class="role-container"
+          style="
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+          "
+        >
+          <div
+            class="role"
+            style="
+              background-color: #333;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              padding: 15px;
+              margin: 10px;
+              width: 300px;
+            "
+          >
+            <h2>Carry / Hard Carry</h2>
+            <p>
+              Posisi Carry atau Hard Carry dalam Dota 2 adalah peran yang paling
+              vital dalam membawa kemenangan bagi sebuah tim, terutama pada fase
+              permainan yang lebih lanjut atau late game. Carry bertanggung
+              jawab untuk mengumpulkan sumber daya seperti gold dan exp secara
+              efisien, dan mereka sering dibantu oleh semi support dan hard
+              support pada fase awal permainan untuk memastikan pertumbuhan
+              mereka.
+            </p>
+          </div>
+
+          <div
+            class="role"
+            style="
+              background-color: #333;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              padding: 15px;
+              margin: 10px;
+              width: 300px;
+            "
+          >
+            <h2>Midlaner</h2>
+            <p>
+              Midlaner adalah posisi yang biasanya ditempatkan di lane tengah
+              dan memiliki peran yang krusial dalam permainan. Midlaner sering
+              kali bertarung satu lawan satu dengan Mid musuh, dan
+              keberhasilannya dapat memberikan dampak besar pada permainan
+              hingga sekitar 30-50%. Dominasi di lane tengah adalah kunci bagi
+              Midlaner untuk memimpin timnya dari pertengahan hingga akhir
+              permainan.
+            </p>
+          </div>
+
+          <div
+            class="role"
+            style="
+              background-color: #333;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              padding: 15px;
+              margin: 10px;
+              width: 300px;
+            "
+          >
+            <h2>Offlaner</h2>
+            <p>
+              Offlaner adalah posisi yang menempati hardlane, yang seringkali
+              merupakan tempat yang sulit untuk mendapatkan sumber daya. Mereka
+              menghadapi risiko tinggi dari gank dan tekanan lawan. Tugas
+              Offlaner melibatkan gangguan terhadap farm lawan, menciptakan
+              tekanan di lane offlane, dan bertahan seefisien mungkin meskipun
+              dalam kondisi sulit.
+            </p>
+          </div>
+
+          <div
+            class="role"
+            style="
+              background-color: #333;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              padding: 15px;
+              margin: 10px;
+              width: 300px;
+            "
+          >
+            <h2>Semi Support</h2>
+            <p>
+              Semi Support memiliki peran kritis pada fase awal permainan.
+              Mereka membantu carry dalam farming dan menjaga stabilitas lane.
+              Selain itu, Semi Support juga memiliki tanggung jawab untuk
+              membeli dan menempatkan ward, yang memberikan visibilitas kepada
+              tim mereka dan melindungi dari gank lawan.
+            </p>
+          </div>
+
+          <div
+            class="role"
+            style="
+              background-color: #333;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              padding: 15px;
+              margin: 10px;
+              width: 300px;
+            "
+          >
+            <h2>Hard Support</h2>
+            <p>
+              Hard Support adalah posisi yang bertanggung jawab penuh terhadap
+              dukungan tim. Mereka membeli item pendukung seperti ward dan
+              courier, dan seringkali harus mengorbankan diri untuk melindungi
+              carry atau midlaner. Hard Support berfokus pada memastikan
+              keseimbangan dan keberlanjutan tim, bahkan jika itu berarti mereka
+              harus mengorbankan sumber daya mereka sendiri.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script>
+    function openTAB(nameTAB) {
+      let i;
+      let x = document.getElementsByClassName("TAB");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      document.getElementById(nameTAB).style.display = "block";
+    }
+  </script>
+</html>
